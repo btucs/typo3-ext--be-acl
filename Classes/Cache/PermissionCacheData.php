@@ -44,6 +44,8 @@ class PermissionCacheData
      */
     protected $timestamp;
 
+    protected $permissionClauseCache = [];
+
     /**
      * Initializes the current timestamp.
      */
